@@ -1,7 +1,7 @@
 mkdir Downloads
 cd Downloads
 apt-get update
-apt-get upgrade
+apt-get upgrade -y
 # For Anaconda installation.
 apt-get install wget bzip2 -y
 source ~/.bashrc
